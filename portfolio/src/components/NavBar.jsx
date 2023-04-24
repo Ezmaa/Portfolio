@@ -54,7 +54,6 @@ const NavBar = () => {
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
                 {link}
-             
             </li>
           ))}
         </ul>
