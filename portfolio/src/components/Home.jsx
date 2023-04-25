@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-orange-800"
+      className="h-screen w-full bg-gradient-to-b from-black  to-orange-300"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
@@ -16,12 +16,7 @@ const Home = () => {
           <p className="text-gray-400 py-4 max-w-md">
             I am a driven software developer able to communicate proficiently
             and professionally in a team setting. I can adapt and prioritize
-            workflow, which allows me to work well with my team. I'm also just a
-            regular person who loves getting outside and having a good time.
-            Hiking and staying active my are my go to activities for a mental
-            refesh, I play basketball and paintball for a little more
-            competitive fun. I find that my hobbies keep my creative juices
-            flowing and help me bring a fresh perspective to my work
+            workflow, which allows me to work well with my team. 
           </p>
           <div>
             <button className="text-white group w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
