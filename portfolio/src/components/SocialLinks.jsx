@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/ezinma-nwankwo",
+      href: "https://www.linkedin.com/in/ezinma-nwankwo-3b7905234/",
       style: "rounded-tr-md",
     },
     {
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: "mailto:ezinmanwa@gmail.com",
     },
     {
       id: 4,
