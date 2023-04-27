@@ -27,7 +27,9 @@ const About = () => {
             Hiking and staying active my are my go to activities for a mental
             refesh, I play basketball and paintball for a little more
             competitive fun. I find that my hobbies keep my creative juices
-            flowing and help me bring a fresh perspective to my work
+            flowing and help me bring a fresh perspective to my work. I also have an 
+            unhealthy love for pizza, you can catch me on the weekedns trying to find 
+            the new best pizza spot!
       </p>
     </div>
   </div>

@@ -59,9 +59,9 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div>
-              <h4 className="pt-1 font-bold text-xl">{title}</h4>
+              <h4 className="pt-2 text-blue-400 font-bold text-xl">{title}</h4>
           <div className="pt-2 pb-2">{description}</div>
-          <div>{developement}</div>
+          <div className="flex flex-col">{developement}</div>
           </div>
               <div className="flex items-center justify-center">
                 <a href={demo}>
