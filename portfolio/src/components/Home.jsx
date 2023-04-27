@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black  to-orange-400"
+      className="h-screen w-full bg-gradient-to-b from-black via-gray-800  to-gray-600"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
@@ -15,9 +15,7 @@ const Home = () => {
             Relentlessly Solving Problems
           </h2>
           <p className="text-gray-400 py-4 max-w-md">
-            I am a driven software developer able to communicate proficiently
-            and professionally in a team setting. I can adapt and prioritize
-            workflow, which allows me to work well with my team. 
+            Welcome to my portfolio! 
           </p>
           <div>
           <Link
