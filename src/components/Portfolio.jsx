@@ -1,8 +1,7 @@
 import React from "react";
 import devMatch from "../assets/img/devMatch.png";
-import dotb from '../assets/img/dotb.png';
-import proj3 from '../assets/img/proj3.png';
-
+import dotb from "../assets/img/dotb.png";
+import proj3 from "../assets/img/proj3.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -33,7 +32,7 @@ const Portfolio = () => {
       developement: "JavaScript, CSS, HTML",
       code: "https://github.com/Ezmaa/Weather-Dashboard",
       demo: "https://ezmaa.github.io/Weather-Dashboard/",
-    }, 
+    },
   ];
 
   return (
@@ -50,33 +49,36 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, code, demo, title, description, developement }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105"
-              />
-              <div>
-              <h4 className="pt-2 text-blue-400 font-bold text-xl">{title}</h4>
-          <div className="pt-2 pb-2">{description}</div>
-          <div className="flex flex-col">{developement}</div>
-          </div>
-              <div className="flex items-center justify-center">
-                <a href={demo}>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                    Demo
-                  </button>
-                </a>
-                <a href={code}>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                    Code
-                  </button>
-                </a>
+          {portfolios.map(
+            ({ id, src, code, demo, title, description, developement }) => (
+              <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+                <img
+                  src={src}
+                  alt=""
+                  className="rounded-md duration-200 hover:scale-105"
+                />
+                <div>
+                  <h4 className="pt-2 px-2 text-blue-400 font-bold text-xl">
+                    {title}
+                  </h4>
+                  <div className="pt-2 px-2 pb-2">{description}</div>
+                  <div className="flex flex-col px-2">{developement}</div>
+                </div>
+                <div className="flex items-center justify-center">
+                  <a href={demo}>
+                    <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                      Demo
+                    </button>
+                  </a>
+                  <a href={code}>
+                    <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                      Code
+                    </button>
+                  </a>
+                </div>
               </div>
-            </div>
-          ))}
+            )
+          )}
         </div>
       </div>
     </div>
